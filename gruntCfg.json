@@ -1,0 +1,24 @@
+{
+  "requirejs": {
+    "main": {
+      "options": {
+        "baseUrl": "",
+        "paths": {
+          "$": "js/jquery",
+          "_": "js/jquery.lazyload",
+          "B": "js/jsonp",
+          "Test": "js/Test"
+        },
+        "web": {
+          "include": [
+            "$",
+            "_",
+            "B",
+            "Test"
+          ],
+          "out": "dest/libs2.js"
+        }
+      }
+    }
+  }
+}
